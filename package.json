@@ -19,13 +19,13 @@
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "styled-components": "^6.1.8",
-    "tailwindcss": "^3"
+    "tailwindcss": "^3",
+    "autoprefixer": "^10"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "autoprefixer": "^10",
     "postcss": "^8",
     "prisma": "^5.10.2",
     "typescript": "^5"
