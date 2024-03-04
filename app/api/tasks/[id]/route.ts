@@ -1,4 +1,4 @@
-import prisma from "@/app/utils/connect";
+import prisma from "../../../utils/connect";
 import { auth } from "@clerk/nextjs";
 import { NextRequest, NextResponse } from "next/server";
 
