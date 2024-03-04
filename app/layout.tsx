@@ -1,9 +1,9 @@
 import type {Metadata} from "next";
 import {Nunito} from "next/font/google";
 import "./globals.css";
-import Sidebar from "./_components/sidebar/sidebar";
-import GlobalStyleProvider from "./_providers/globalStyleProvider";
-import ContextProvider from "./_providers/contextProvider";
+import Sidebar from "../components/sidebar/sidebar";
+import GlobalStyleProvider from "../providers/globalStyleProvider";
+import ContextProvider from "../providers/contextProvider";
 import {ClerkProvider, auth} from "@clerk/nextjs";
 import NextTopLoader from "nextjs-toploader";
 

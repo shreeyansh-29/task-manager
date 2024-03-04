@@ -1,11 +1,11 @@
 "use client";
-import {useGlobalState} from "../../_context/globalProvider";
+import {useGlobalState} from "../../context/globalProvider";
 import axios from "axios";
 import React, {useState} from "react";
 import toast from "react-hot-toast";
 import styled from "styled-components";
 import Button from "../button/button";
-import {add} from "../../_utils/icons";
+import {add} from "../../utils/icons";
 
 function CreateContent() {
   const [title, setTitle] = useState("");
