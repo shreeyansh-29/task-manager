@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import styled from "styled-components";
-import {useGlobalState} from "../../context/globalProvider";
+import {useGlobalState} from "../../_context/globalProvider";
 import Image from "next/image";
 
-import menu from "../../utils/menu";
+import menu from "../../_utils/menu";
 import Link from "next/link";
 import {usePathname, useRouter} from "next/navigation";
 import Button from "../button/button";
-import {arrowLeft, bars, logout} from "../../utils/icons";
+import {arrowLeft, bars, logout} from "../../_utils/icons";
 import {UserButton, useClerk, useUser} from "@clerk/nextjs";
 
 function Sidebar() {

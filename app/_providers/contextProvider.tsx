@@ -2,7 +2,7 @@
 
 import React, {useEffect, useState} from "react";
 import GlobalStyleProvider from "./globalStyleProvider";
-import GlobalProvider from "../context/globalProvider";
+import GlobalProvider from "../_context/globalProvider";
 import {Toaster} from "react-hot-toast";
 
 interface Props {
